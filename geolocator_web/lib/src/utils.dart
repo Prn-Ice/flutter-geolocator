@@ -36,7 +36,7 @@ LocationPermission toLocationPermission(String? webPermission) {
     case 'granted':
       return LocationPermission.whileInUse;
     case 'prompt':
-      return LocationPermission.denied;
+      return LocationPermission.prompt;
     case 'denied':
       return LocationPermission.deniedForever;
     default:

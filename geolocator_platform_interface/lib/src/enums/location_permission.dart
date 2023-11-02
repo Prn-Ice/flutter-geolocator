@@ -20,5 +20,8 @@ enum LocationPermission {
   /// Permission status is cannot be determined. This permission is only
   /// returned by the `Geolocator.checkPermission()` method on the web platform
   /// for browsers that do not implement the Permission API (see https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API).
-  unableToDetermine
+  unableToDetermine,
+
+  /// Permission to access the device's location is allowed temporarily
+  prompt
 }
