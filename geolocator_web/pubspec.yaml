@@ -17,8 +17,10 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  geolocator_platform_interface: 
-    path: ../geolocator_platform_interface
+  geolocator_platform_interface:
+    git:
+      url: git@github.com:Prn-Ice/flutter-geolocator.git
+      path: geolocator_platform_interface
 
 dev_dependencies:
   flutter_test:
@@ -27,5 +29,5 @@ dev_dependencies:
   mockito: ^5.0.0
 
 environment:
-  sdk: '>=2.15.0 <4.0.0'
+  sdk: ">=2.15.0 <4.0.0"
   flutter: ">=2.8.0"
